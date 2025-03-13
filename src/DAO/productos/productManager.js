@@ -44,7 +44,7 @@ class ProductManager {
                 if(productos.length>0){
                     id=Math.max(...productos.map(d=>d.id))+1
                 }
-                console.log(product)
+               // console.log(product)
                 let newProduct = {id, ...product}
                 productos.push(newProduct)
 

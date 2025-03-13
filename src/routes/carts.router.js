@@ -45,6 +45,7 @@ router.post('/', async (req, res) => {
     //const newCart = await req.cartManager.addCart()
     const newCart = await carritoManager.addCart()
     if(newCart){
+        req.io.emit('NuevoCarrito', newCart)
         res.status(201).json(newCart)
     }else{
         res.status(400).json({error: 'No se pudo agregar el carrito'})
@@ -98,6 +99,7 @@ router.post('/:cid/products/:pid', async (req, res) => {
     if(!updatedCart){
         res.status(204).json({error: 'Producto no agregado al carrito'})
     }else{
+        req.io.emit('ProductoCarrito', updatedCart)
         res.status(201).json({message: 'Producto agregado al carrito'})
     }
 })

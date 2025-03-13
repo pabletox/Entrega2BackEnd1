@@ -65,6 +65,7 @@ router.post('/', async (req, res) => {
         //const newProduct = await req.producManager.addProduct(producto)
         const newProduct = await productosManager.addProduct(producto)
         if(newProduct){
+            req.io.emit('NuevoProducto', newProduct)
             res.status(201).json({
                 message: "Producto agregado",
                 product: newProduct
