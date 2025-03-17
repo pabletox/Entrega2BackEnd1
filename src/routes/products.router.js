@@ -119,6 +119,7 @@ router.delete('/:id', async (req, res) => {
             return res.status(404).json({error: 'No se encontro el producto'})
         }
         const deletedProduct = await productosManager.deleteProduct(id)
+        req.io.emit('ProductoEliminado', id); // Emitir evento para Socket.io
         res.status(200).json({message:'Producto Eliminado'})
     }catch(err){
         console.error("Error en la API: ", err.message)

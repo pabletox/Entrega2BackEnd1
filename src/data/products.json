@@ -283,5 +283,18 @@
 			"nuevo 2",
 			"nuevo 3"
 		]
+	},
+	{
+		"id": 21,
+		"title": "nuevo7",
+		"description": "nuevooo",
+		"code": "675753",
+		"price": 1233111,
+		"status": true,
+		"stock": 2,
+		"category": "hola",
+		"thumbnails": [
+			"hola"
+		]
 	}
 ]

@@ -1,10 +1,46 @@
 <h2>Productos</h2>
 <hr>
-<ul>
-    {{#each productos}}
-    <li>{{title}} - {{price}}</li>
-    {{/each}}
-</ul>
+<div style="display: flex; gap: 20px;">
+    <!-- Lista de productos -->
+    <ul style="flex: 1;">
+        {{#each productos}}
+        <li>
+            {{title}} - {{price}}
+            <button onclick="deleteProduct('{{id}}')">Eliminar</button>
+        </li>
+        {{/each}}
+    </ul>
+
+    <!-- Formulario para agregar producto -->
+    <form id="productForm" style="flex: 1;">
+        <h3>Agregar Producto</h3>
+        <label for="title">Título:</label>
+        <input type="text" id="title" name="title" required><br><br>
+
+        <label for="description">Descripción:</label>
+        <input type="text" id="description" name="description" required><br><br>
+
+        <label for="code">Código:</label>
+        <input type="text" id="code" name="code" required><br><br>
+
+        <label for="price">Precio:</label>
+        <input type="number" id="price" name="price" required><br><br>
+
+        <label for="status">Estado:</label>
+        <input type="checkbox" id="status" name="status"><br><br>
+
+        <label for="stock">Stock:</label>
+        <input type="number" id="stock" name="stock" required><br><br>
+
+        <label for="category">Categoría:</label>
+        <input type="text" id="category" name="category" required><br><br>
+
+        <label for="thumbnails">Imágenes (separadas por coma):</label>
+        <input type="text" id="thumbnails" name="thumbnails"><br><br>
+
+        <button type="submit">Agregar Producto</button>
+    </form>
+</div>
 
 <script src="./socket.io/socket.io.js"></script>
-<script src="/js/products.js"></script>
+<script src="/js/products.js" defer></script>
