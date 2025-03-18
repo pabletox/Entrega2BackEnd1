@@ -1,287 +1,122 @@
 [
 	{
+		"id": "1",
+		"title": "Polera básica",
+		"description": "Polera de algodón 100% para uso diario",
+		"code": "TSHIRT1",
+		"price": 12000,
+		"status": true,
+		"stock": 20,
+		"category": "Poleras",
+		"thumbnails": [
+			"polera1.jpg",
+			"polera2.jpg",
+			"polera3.jpg"
+		]
+	},
+	{
 		"id": "2",
-		"title": "put cambiado!!!",
-		"description": "nuevo 3",
-		"code": "code 3",
-		"price": 150,
+		"title": "Jeans Slim Fit",
+		"description": "Jeans ajustados de mezclilla azul",
+		"code": "JEANS1",
+		"price": 25000,
 		"status": true,
-		"stock": 7,
-		"category": "category 3",
+		"stock": 15,
+		"category": "Pantalones",
 		"thumbnails": [
-			"nuevo 1",
-			"nuevo 2",
-			"nuevo 3"
+			"jeans1.jpg",
+			"jeans2.jpg",
+			"jeans3.jpg"
 		]
 	},
 	{
-		"id": 3,
-		"title": "title 3",
-		"description": "description 3",
-		"code": "code 3",
-		"price": 150,
+		"id": "3",
+		"title": "Chaqueta de cuero",
+		"description": "Chaqueta de cuero sintético, estilo biker",
+		"code": "JACKET1",
+		"price": 45000,
 		"status": true,
-		"stock": 7,
-		"category": "category 3",
+		"stock": 10,
+		"category": "Chaquetas",
 		"thumbnails": [
-			"thumbnail 1",
-			"thumbnail 2",
-			"thumbnail 3"
+			"chaqueta1.jpg",
+			"chaqueta2.jpg",
+			"chaqueta3.jpg"
 		]
 	},
 	{
-		"id": 4,
-		"title": "title 3",
-		"description": "description 3",
-		"code": "code 3",
-		"price": 150,
+		"id": "4",
+		"title": "Zapatillas deportivas",
+		"description": "Zapatillas ligeras para running y entrenamiento",
+		"code": "SHOES1",
+		"price": 35000,
 		"status": true,
-		"stock": 7,
-		"category": "category 3",
+		"stock": 12,
+		"category": "Calzado",
 		"thumbnails": [
-			"thumbnail 1",
-			"thumbnail 2",
-			"thumbnail 3"
+			"zapatillas1.jpg",
+			"zapatillas2.jpg",
+			"zapatillas3.jpg"
 		]
 	},
 	{
 		"id": "5",
-		"title": "Prueba de put",
-		"description": "nuevo 3",
-		"code": "code 3",
-		"price": 150,
+		"title": "Sweater de lana",
+		"description": "Sweater abrigado de lana para invierno",
+		"code": "SWEATER1",
+		"price": 28000,
 		"status": true,
-		"stock": 7,
-		"category": "category 3",
+		"stock": 8,
+		"category": "Abrigos",
 		"thumbnails": [
-			"nuevo 1",
-			"nuevo 2",
-			"nuevo 3"
+			"sweater1.jpg",
+			"sweater2.jpg",
+			"sweater3.jpg"
 		]
 	},
 	{
-		"id": 6,
-		"title": "title 6",
-		"description": "nuevo 3",
-		"code": "code 3",
-		"price": 150,
+		"id": "6",
+		"title": "Vestido casual",
+		"description": "Vestido de algodón cómodo para el día a día",
+		"code": "DRESS1",
+		"price": 32000,
 		"status": true,
-		"stock": 7,
-		"category": "category 3",
+		"stock": 10,
+		"category": "Vestidos",
 		"thumbnails": [
-			"nuevo 1",
-			"nuevo 2",
-			"nuevo 3"
+			"vestido1.jpg",
+			"vestido2.jpg",
+			"vestido3.jpg"
 		]
 	},
 	{
-		"id": 7,
-		"title": "title 7",
-		"description": "nuevo 3",
-		"code": "code 3",
-		"price": 150,
+		"id": "7",
+		"title": "Bufanda de lana",
+		"description": "Bufanda gruesa de lana para invierno",
+		"code": "SCARF1",
+		"price": 15000,
 		"status": true,
-		"stock": 7,
-		"category": "category 3",
+		"stock": 18,
+		"category": "Accesorios",
 		"thumbnails": [
-			"nuevo 1",
-			"nuevo 2",
-			"nuevo 3"
+			"bufanda1.jpg",
+			"bufanda2.jpg",
+			"bufanda3.jpg"
 		]
 	},
 	{
-		"id": 9,
-		"title": "nuevo producto nuevo...",
-		"description": "nuevo 3",
-		"code": "code 3",
-		"price": 150,
+		"id": "8",
+		"title": "Gorro de lana",
+		"description": "Gorro tejido de lana, ideal para el frío",
+		"code": "HAT1",
+		"price": 12000,
 		"status": true,
-		"stock": 7,
-		"category": "category 3",
+		"stock": 25,
+		"category": "Accesorios",
 		"thumbnails": [
-			"nuevo 1",
-			"nuevo 2",
-			"nuevo 3"
-		]
-	},
-	{
-		"id": 10,
-		"title": "nuevo producto nuevoo...",
-		"description": "nuevo 3",
-		"code": "code 3",
-		"price": 150,
-		"status": true,
-		"stock": 7,
-		"category": "category 3",
-		"thumbnails": [
-			"nuevo 1",
-			"nuevo 2",
-			"nuevo 3"
-		]
-	},
-	{
-		"id": 11,
-		"title": "nuevo producto nuev...",
-		"description": "nuevo 3",
-		"code": "code 3",
-		"price": 150,
-		"status": true,
-		"stock": 7,
-		"category": "category 3",
-		"thumbnails": [
-			"nuevo 1",
-			"nuevo 2",
-			"nuevo 3"
-		]
-	},
-	{
-		"id": 12,
-		"title": "nuevo producto para render",
-		"description": "nuevo 3",
-		"code": "code 3",
-		"price": 150,
-		"status": true,
-		"stock": 7,
-		"category": "category 3",
-		"thumbnails": [
-			"nuevo 1",
-			"nuevo 2",
-			"nuevo 3"
-		]
-	},
-	{
-		"id": 13,
-		"title": "nuevo producto para render2",
-		"description": "nuevo 3",
-		"code": "code 3",
-		"price": 150,
-		"status": true,
-		"stock": 7,
-		"category": "category 3",
-		"thumbnails": [
-			"nuevo 1",
-			"nuevo 2",
-			"nuevo 3"
-		]
-	},
-	{
-		"id": 14,
-		"title": "nuevo",
-		"description": "nuevo 3",
-		"code": "code 3",
-		"price": 150,
-		"status": true,
-		"stock": 7,
-		"category": "category 3",
-		"thumbnails": [
-			"nuevo 1",
-			"nuevo 2",
-			"nuevo 3"
-		]
-	},
-	{
-		"id": 15,
-		"title": "nuevo1",
-		"description": "nuevo 3",
-		"code": "code 3",
-		"price": 150,
-		"status": true,
-		"stock": 7,
-		"category": "category 3",
-		"thumbnails": [
-			"nuevo 1",
-			"nuevo 2",
-			"nuevo 3"
-		]
-	},
-	{
-		"id": 16,
-		"title": "nuevo2",
-		"description": "nuevo 3",
-		"code": "code 3",
-		"price": 150,
-		"status": true,
-		"stock": 7,
-		"category": "category 3",
-		"thumbnails": [
-			"nuevo 1",
-			"nuevo 2",
-			"nuevo 3"
-		]
-	},
-	{
-		"id": 17,
-		"title": "nuevo3",
-		"description": "nuevo 4",
-		"code": "code 3",
-		"price": 150,
-		"status": true,
-		"stock": 7,
-		"category": "category 3",
-		"thumbnails": [
-			"nuevo 1",
-			"nuevo 2",
-			"nuevo 3"
-		]
-	},
-	{
-		"id": 18,
-		"title": "nuevo4",
-		"description": "nuevo 4",
-		"code": "code 3",
-		"price": 150,
-		"status": true,
-		"stock": 7,
-		"category": "category 3",
-		"thumbnails": [
-			"nuevo 1",
-			"nuevo 2",
-			"nuevo 3"
-		]
-	},
-	{
-		"id": 19,
-		"title": "nuevo5",
-		"description": "nuevo 4",
-		"code": "code 3",
-		"price": 150,
-		"status": true,
-		"stock": 7,
-		"category": "category 3",
-		"thumbnails": [
-			"nuevo 1",
-			"nuevo 2",
-			"nuevo 3"
-		]
-	},
-	{
-		"id": 20,
-		"title": "nuevo6",
-		"description": "nuevo 4",
-		"code": "code 3",
-		"price": 150,
-		"status": true,
-		"stock": 7,
-		"category": "category 3",
-		"thumbnails": [
-			"nuevo 1",
-			"nuevo 2",
-			"nuevo 3"
-		]
-	},
-	{
-		"id": "21",
-		"title": "Nuevo titulo del producto2",
-		"description": "nuevo 4",
-		"code": "code 3",
-		"price": 150,
-		"status": true,
-		"stock": 7,
-		"category": "category 3",
-		"thumbnails": [
-			"nuevo 1",
-			"nuevo 2",
-			"nuevo 3"
+			"gorro1.jpg",
+			"gorro2.jpg",
+			"gorro3.jpg"
 		]
 	}
 ]

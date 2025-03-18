@@ -53,6 +53,9 @@ router.get('/:id', async (req, res) => {
 router.post('/', async (req, res) => {
     const producto = req.body
     //ver si existe el producto por title
+    if(!producto.title || !producto.price || !producto.thumbnail||!producto.code||!producto.description||!producto.stock||!producto.category||!producto.status){
+        return res.status(400).json({error: 'Todos los campos son requeridos'})
+    }
     try{
         //const product = await req.producManager.getProducts()
         const product = await productosManager.getProducts()
