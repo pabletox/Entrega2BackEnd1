@@ -2,10 +2,17 @@ const form = document.getElementById('productForm');
 const socket = io();
 
 socket.on("NuevoProducto", (producto) => {
+    alert(`Se ha creado el nuevo producto: ${producto.title} con exito`);
     window.location.reload();
 });
 
 socket.on("ProductoEliminado", (id) => {
+    alert(`Se ha eliminado el producto con id: ${id}`);
+    window.location.reload();
+});
+
+socket.on("ActualizacionProducto", (id) => {
+    alert(`Se ha actualizado el producto con id: ${id}`);
     window.location.reload();
 });
 

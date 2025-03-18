@@ -93,6 +93,7 @@ router.put('/:id', async (req, res) => {
         }else{
             const updatedProduct = await productosManager.updateProduct(id, producto)
             if(updatedProduct){
+                req.io.emit('ActualizacionProducto', id)
                 res.status(200).json({
                     message: "Producto Actualizado",
                     product: updatedProduct

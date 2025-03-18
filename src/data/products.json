@@ -90,21 +90,6 @@
 		]
 	},
 	{
-		"id": 8,
-		"title": "nuevo productos nombre...",
-		"description": "nuevo 3",
-		"code": "code 3",
-		"price": 150,
-		"status": true,
-		"stock": 7,
-		"category": "category 3",
-		"thumbnails": [
-			"nuevo 1",
-			"nuevo 2",
-			"nuevo 3"
-		]
-	},
-	{
 		"id": 9,
 		"title": "nuevo producto nuevo...",
 		"description": "nuevo 3",
@@ -285,16 +270,18 @@
 		]
 	},
 	{
-		"id": 21,
-		"title": "nuevo7",
-		"description": "nuevooo",
-		"code": "675753",
-		"price": 1233111,
+		"id": "21",
+		"title": "Nuevo titulo del producto2",
+		"description": "nuevo 4",
+		"code": "code 3",
+		"price": 150,
 		"status": true,
-		"stock": 2,
-		"category": "hola",
+		"stock": 7,
+		"category": "category 3",
 		"thumbnails": [
-			"hola"
+			"nuevo 1",
+			"nuevo 2",
+			"nuevo 3"
 		]
 	}
 ]
